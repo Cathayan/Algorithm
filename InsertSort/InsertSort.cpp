@@ -16,11 +16,10 @@ struct LIST* InsertSort(struct LIST* pList)
 		return pList;
 	}
 
-	struct LIST* pHead = NULL, *pNoSortItor = pList;
+	struct LIST* pHead = NULL, *pNoSortItor = NULL;
 
-	while (pNoSortItor != NULL)
+	while ((pNoSortItor = pList) != NULL)
 	{
-		pNoSortItor = pList;
 		pList = pList->pNext;
 		if ((pHead == NULL) || (pNoSortItor->iValue < pHead->iValue))
 		{
