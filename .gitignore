@@ -1,0 +1,14 @@
+*.tlog
+Fibonacci/Debug/vc120.pdb
+*.log
+Fibonacci/Debug/stdafx.obj
+*.idb
+Debug/Fibonacci.exe
+*.suo
+*.ipch
+Fibonacci/Debug/Fibonacci.pch
+Fibonacci/Fibonacci.vcxproj.filters
+*.obj
+Debug/Fibonacci.pdb
+*.ilk
+Algorithm.sdf
